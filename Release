@@ -1,8 +1,8 @@
-Origin: Reposi3
-Label: Reposi3
+Origin: Ra1nHax Repo
+Label: Ra1nHax Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Reposi3 - a cydia repo template
+Description: Ra1nHax - Let's Tweak!
