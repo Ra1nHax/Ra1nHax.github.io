@@ -4,7 +4,7 @@ Section: Tweaks
 Maintainer: UltraWolf <theshord064@gmail.com>
 Depends: firmware (>11.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Filename: ./debs/youtube-dl_2021.03.03_all.deb
 Size: 854
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
 Description: Download video on YouTube without premium.
