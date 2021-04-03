@@ -10,4 +10,19 @@ MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
 Description: Download video on YouTube without premium.
 Name: YouTube Downloader
 Author: Unknown
-Depiction: https://ra1nhax.github.io/depictions/?p=com.ra1nhax.youtube-dl_2021.03.03_all.deb
+Depiction: https://ra1nhax.github.io/depictions/?
+
+Package: us.diatr.appsyncunified_32.0-6_appletvos-arm64.deb
+Version: 37.0.0
+Section: Tweaks
+Maintainer: UltraWolf <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/us.diatr.appsyncunified_32.0-6_appletvos-arm64.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: AppSync 37.0 for older IOS.
+Name: AppSync Old
+Author: Karen <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=us.diatr.appsyncunified_32.0-6_appletvos-arm64.deb
+
