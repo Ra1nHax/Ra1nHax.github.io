@@ -1,37 +1,58 @@
-<div>
-  <h1>AlexDev</h1>
-  <p>Site in building!</p>
-</div>
-<style>@import url("https://fonts.googleapis.com/css?family=Caveat|Righteous&display=swap");
-div {
-  background: black;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <title>Animated BG</title>
+</head>
+<body>
+  <section>
+    <h1>AlexDev Website</h1>
+  </section>
+</body>
+</html>
+<style>
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+section{
   width: 100%;
   height: 100vh;
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+  background-size: 400% 400%;
+  position: relative;
+  animation: animate 7.5s ease-in-out infinite;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
-  font-family: "Righteous", cursive;
-  background: url("https://media.giphy.com/media/FE0WTM8BG754I/giphy.gif") center center no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 7rem;
-  letter-spacing: 10px;
-  background-size: cover;
-  margin: 0px;
-  color: transparent;
+h1{
+  color: #fff;
+  background: rgba(255,255,255,.2);
+  padding: 20px;
+  font-size: 50px;
+  border-radius: 10px;
 }
 
-p {
-  font-family: "Caveat", cursive;
-  color: transparent;
-  font-size: 2rem;
-  letter-spacing: 5px;
-  margin: 0px;
-  background: linear-gradient(to right, #c4c4c4, #6a6a6a);
-  -webkit-background-clip: text;
-}
-</style>
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+  }</style>
